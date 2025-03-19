@@ -1,0 +1,2 @@
+dotnet aspnet-codegenerator controller -name EmployeeController -m Employee -dc MvcMovie.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator controller -name DaiLyController -m DaiLy -dc WebMVC.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
